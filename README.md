@@ -1,55 +1,35 @@
-# Explorador de Viajes y Lugares Turísticos
-Proyecto integrador desarrollado con JavaScript, APIs y librerías para
-explorar información de países y destinos alrededor del mundo.
-## Tecnologías
+# Explordor de Viajes y Lugares Turisticos
+
+Proyecto integrador desarrollado con Javascript, APIs y librerias para explorar información de países y destinos alrededor del mundo
+
+## Tecnologias
+
 - HTML5
 - JavaScript ES6+
-- Tailwind CSS
 - APIs REST
 - LocalStorage
 - Leaflet
 - SweetAlert2
 - Git
 - GitHub
-## Características
-El proyecto permitirá:
-- Consultar países desde una API REST.
-- Buscar destinos.
-- Filtrar destinos por continente.
-- Ordenar resultados.
-- Consultar información detallada.
-- Visualizar la ubicación del destino en un mapa.
-- Guardar destinos favoritos.
-- Persistir favoritos mediante LocalStorage.
+- OpenStreetMap
 
-## countriesApi.js
+## Caracteristicas
 
-- fetch()
-- async / await
-- try / catch
-- response.ok
-- response.json()
-- import / export
+El proyecto permitira:
 
-## ui.js
-
-- map()
-- template literals
-- innerHTML
-- optional chaining
-- data-*
-- DOM dinámico
-- módulos JavaScript
-- separación de responsabilidades
-
-## utils/filters.js
-
-- Normalización de texto
-- Aplicaion de filtros
-- eventos: input, change
+- Consuktar paises desde una API RESt
+- Buscar destino.
+- Ordenar resultados
+- Consultar información detallada
+- Visualizar la ubicacion del destino en un mapa
+- Guardar destinos favoritos
+- Persistir favoritos mediante LocalStorage
 
 ## Arquitectura
-La aplicación utiliza una sola página HTML y divide progresivamente la lógica
-JavaScript en módulos según su responsabilidad.
+
+La aplicación utiliza una sola página HTML y divide progrsivamente la lógica JavaScript en módulos según su responsabilidad
+
 ## Versión actual
-v0.3.0 - Renderizado dinámico de Destinos.
+
+v0.5.0 - Aplicar Ver mas para detalles del Pais y agregar Mapa interactivo
